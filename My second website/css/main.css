@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Calistoga&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Calistoga", cursive;
+}
+
+.main-header {
+  height: 100vh;
+  min-height: 600px;
+  position: relative;
+}
+
+#enlarge {
+  font-size: 14px;
+  -webkit-transition-property: font-size;
+  transition-property: font-size;
+  -webkit-transition-duration: 4s;
+          transition-duration: 4s;
+  -webkit-transition-delay: 2s;
+          transition-delay: 2s;
+}
+
+#enlarge:hover {
+  font-size: 36px;
+}
+/*# sourceMappingURL=main.css.map */

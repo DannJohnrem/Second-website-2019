@@ -1,0 +1,85 @@
+@import url("./materialize.scss");
+@import url("https://fonts.googleapis.com/css?family=Calistoga&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Calistoga", cursive;
+}
+
+.main-header {
+  height: 100vh;
+  min-height: 600px;
+  position: relative;
+}
+
+#logo {
+  width: 70px;
+  height: 60px;
+  top: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.parallax-container {
+  background: no-repeat center center fixed;
+}
+
+.pr1,
+.pr2,
+.pr3 {
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pr1 {
+  width: 100%;
+  min-height: 100px;
+}
+
+.pr3 {
+  width: 100%;
+  min-height: 100px;
+}
+
+.pic {
+  position: absolute;
+  right: 200px;
+}
+
+.pic .light {
+  position: absolute;
+  left: 200px;
+  bottom: 400px;
+}
+
+.gotoupbtn {
+  position: fixed;
+  width: 2400px;
+  height: 2400px;
+  bottom: auto;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: darkmagenta;
+  font-size: 50px;
+}
+
+#ic1:hover {
+  -webkit-transform: scale3d(1.1);
+          transform: scale3d(1.1);
+}
+
+.MH {
+  position: absolute;
+  right: 100px;
+}
+
+.paragraph {
+  font-size: 20px;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */

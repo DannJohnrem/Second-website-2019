@@ -1,0 +1,94 @@
+// import materialize.scss
+@import url('./materialize.scss');
+//google font
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+
+//padding and margin value 0
+$padding: 0;
+$margin: 0;
+
+//background image for parallax
+$bg-parallax: no-repeat center center fixed;
+//font variables
+$googleFont: 'Calistoga', cursive;
+
+//logo variables
+//$logoImage: 100px;
+//style
+// html{
+//   scroll-behavior: smooth;
+// }
+body {
+    padding: $padding;
+    margin: $margin;
+    font-family: $googleFont;
+    
+}
+.main-header {
+    height: 100vh;
+    min-height: 600px;
+    position: relative;
+}
+#logo {
+    width: 70px;
+    height: 60px;
+    top: auto;
+    padding: 0;
+    margin: 0;
+}
+.parallax-container{
+  background: $bg-parallax;
+}
+.pr1,
+.pr2,
+.pr3 {
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pr1 {
+  width: 100%;
+  min-height: 100px;
+}
+.pr3 {
+  width: 100%;
+  min-height: 100px;
+}
+.pic {
+  position: absolute;
+  right: 200px; 
+  .light {
+    position: absolute;
+    left: 200px;
+    bottom: 400px;
+  }
+}
+.gotoupbtn {
+  position: fixed;
+  width: 2400px;
+  height: 2400px;
+  bottom: auto;
+
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: darkmagenta;
+  font-size: 50px;
+}
+#ic1:hover {
+  transform: scale3d(1.1);
+  
+}
+.MH {
+  position: absolute;
+  right: 100px;
+}
+.paragraph {
+  font-size: 20px;
+  text-align: center;
+}
+
